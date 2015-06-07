@@ -1,0 +1,360 @@
+body#home a#home,
+body#code a#code
+{
+	background-color:gold;
+	color:Black;
+	cursor:default;
+}
+
+body /* base background */
+{
+	margin:0;
+	padding:0;
+	background-color: black;	
+}
+
+iframe
+{
+	border: gold solid 5px;
+	margin-left:125px;
+	
+	
+	margin-top:20px;
+	margin-bottom:50px;
+	width:300px;
+	height:300px;
+
+}
+#gold
+{
+    border             : gold thin solid;
+    -webkit-box-shadow : gold 20px 20px 10px;
+    -moz-box-shadow    : gold 20px 20px 10px;
+    -ms-box-shadow     : gold 20px 20px 10px;
+    -o-box-shadow      : gold 20px 20px 10px;
+    box-shadow         : gold 20px 20px 10px;
+    behavior           : url(pie.htc);  
+	padding-left	   : 10px;  
+}
+
+#gold2
+{
+     border             : black thin solid;
+	 color				: gold;
+}
+
+#video
+{
+     border             : black thin solid;
+	 color				: gold;
+	 margin-top			: 500px;
+}
+
+#contentcode2
+{
+	width:50%;
+	height:auto;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:50px;
+	background-color: black;
+	border: gold 2px solid;
+		
+}
+#contentcode
+{
+	width:680px;
+	height:auto;
+	padding-left:3px;
+	padding-right: 3px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:50px;
+	background-color: black;
+	font-size:14px;
+	color: white;		
+}
+
+#wallpaper
+{
+	background: url(../images/bk2.jpg);
+	width:100%;
+	height:100%;
+	margin: auto;	
+}
+
+#topmenu
+{
+	background:#000;
+	width:100%;
+	height:40px;
+	margin-top:5px;
+	border-bottom: 5px solid gold;
+	margin-left:5px;	
+}
+
+.menu.horizontal span,a
+{
+	height:40px;	
+	line-height:35px;
+}
+
+.menu a
+{
+   text-decoration : none;
+}
+
+
+.menu ul li span
+{
+	display          : block;      
+	background-color : black;
+	color            : #ccc;
+}
+
+.menu.horizontal ul li ul 
+{
+	margin-top		:-8px;
+	margin-left		:5px;
+	opacity			:0.3;	
+}
+
+
+.menu a
+{
+   display                  : block;      
+   background-color 		: #000;
+   color            		: #ccc;
+   border                   : gold 2px solid;
+  border-top-right-radius   : 25px;
+  border-bottom-left-radius : 25px;
+  text-align				:center;
+}
+
+.menu ul li:hover span,
+.menu a:hover,
+.menu a:active
+{							
+   background-color : gold;
+   color            : Black;
+}
+
+.menu ul 
+{
+   list-style : none;  
+   padding    : 0px;   
+   margin     : 0px;
+}
+
+.menu li
+{
+   width      : 80px;  					
+   text-align : center;  
+}
+
+.menu.horizontal li 
+{
+   display : inline-block;  
+   float   : left;            
+   margin-left : 5px; 
+
+}
+
+
+
+#page 
+{ 								
+  text-align	:center;			
+  margin-top	:140px;				
+  margin-left	:36%;				
+  color			:#222;
+}
+
+.box-wrapper 
+{
+	webkit-perspective: 800px;
+	-webkit-perspective-origin: 50% 100px;
+
+	-moz-perspective: 800px;
+	-moz-perspective-origin: 50% 100px;
+
+	-ms-perspective: 800px;
+	-ms-perspective-origin: 50% 100px;
+
+	perspective: 800px;
+	perspective-origin: 50% 100px;
+}
+
+.box 
+{
+
+	width: 250px;
+	
+			
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: spin 5s infinite linear;
+			
+	-moz-transform-style: preserve-3d;
+	-moz-animation: spin 5s infinite linear;
+
+	-ms-transform-style: preserve-3d;
+	-ms-animation: spin 5s infinite linear;
+
+	transform-style: preserve-3d;
+    animation: spin 5s infinite linear;	
+  
+}
+
+.box p 
+{
+  padding	:60px 10px;				
+}
+
+.box div 
+{
+  outline	:2px solid gold ; 			
+  position	:absolute;					
+  width		:250px;							
+  height	:250px;						
+  opacity	:0.98;						
+  box-shadow:inset 0px 0px 50px #555; 
+}
+
+
+.back 
+{
+	-webkit-transform: translateZ(-100px) rotateY(180deg);
+	-moz-transform: translateZ(-100px) rotateY(180deg);
+	-ms-transform: translateZ(-100px) rotateY(180deg);
+
+	transform: translateZ(-100px) rotateY(180deg);
+
+}
+
+.right 
+{
+	-webkit-transform:rotateY(-270deg) translateX(100px);
+	-webkit-transform-origin: top right;
+
+	-moz-transform:rotateY(-270deg) translateX(100px);
+	-moz-transform-origin: top right;
+
+	-ms-transform:rotateY(-270deg) translateX(100px);
+	-ms-transform-origin: top right;
+
+	transform:rotateY(-270deg) translateX(100px);
+	transform-origin: top right;
+}
+
+.left
+{
+	-webkit-transform:rotateY(270deg) translateX(-100px);
+	-webkit-transform-origin: center left;
+
+	-moz-transform:rotateY(270deg) translateX(-100px);
+	-moz-transform-origin: center left;
+
+	-ms-transform:rotateY(270deg) translateX(-100px);
+	-ms-transform-origin: center left;
+
+	transform:rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+}
+
+.top 
+{
+ 	-webkit-transform:rotateX(-90deg) translateY(-150px);
+	-webkit-transform-origin: top center;
+
+	-moz-transform:rotateX(-90deg) translateY(-150px);
+	-moz-transform-origin: top center;
+
+	-ms-transform:rotateX(-90deg) translateY(-150px);
+	-ms-transform-origin: top center;
+
+	transform:rotateX(-90deg) translateY(-150px);
+	transform-origin: top center;
+}
+
+.bottom 
+{
+	-webkit-transform:rotateX(90deg) translateY(150px);
+	-webkit-transform-origin: bottom center;
+
+	-moz-transform:rotateX(90deg) translateY(150px);
+	-moz-transform-origin: bottom center;
+
+	-ms-transform:rotateX(90deg) translateY(150px);
+	-ms-transform-origin: bottom center;
+
+	transform:rotateX(90deg) translateY(150px);
+	transform-origin: bottom center;
+}
+
+.front 
+{
+	-webkit-transform: translateZ(150px);
+	-moz-transform: translateZ(150px);
+	-ms-transform: translateZ(150px);
+
+	transform: translateZ(150px);
+}
+
+
+@keyframes spin 
+{
+	from { transform: rotateY(0deg); }
+	to { transform: rotateY(360deg); } /*What moves the cube*/
+}
+@-webkit-keyframes spin 
+{
+	from { -webkit-transform: rotateY(0); }
+	to { -webkit-transform: rotateY(360deg); }
+}
+
+@-ms-keyframes spin 
+{
+	from { ms-transform: rotateY(0); }
+	to { ms-transform: rotateY(360deg); }
+}
+
+.box, .shadow 
+{
+  animation: spin 15s infinite linear; /*What moves the cube*/
+}
+
+.left p  img
+{
+	width	:80%; 
+	height	:50%;
+}
+
+.right p img
+{
+	width	:80%; 
+	height	:50%;
+}
+
+.front p img
+{
+	width	:80%; 
+	height	:50%;
+}
+
+.back p img
+{
+	width	:80%; 
+	height	:50%;
+}
+
+.bottom p img
+{
+	width	:80%; 
+	height	:50%;
+}
+
+.top p img
+{ 
+	width	:80%; 
+	height	:50%; 
+}
